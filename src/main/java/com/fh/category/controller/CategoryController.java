@@ -29,7 +29,10 @@ public class CategoryController {
         return "/bootstrap/ztree";
     }
 
-
+    @RequestMapping("tocategorylist1")
+    public String tolist1(){
+        return "/bootstrap/ztree";
+    }
 
     /**
      * 根据pid查询该节点下的所有子节点
